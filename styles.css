@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left h2 {
+  font-family: 'Azeret Mono', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.left p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: transparent;
+  color: #333;
+  padding: 10px;
+  border: 2px solid #333;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.buttons button.active {
+  background-color: #6F6F64;
+  color: #fff;
+  opacity: 1;
+}
+
+.right img {
+  width: 100%;
+  max-width: 400px;
+}
